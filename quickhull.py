@@ -9,6 +9,8 @@ import time
 NUM_POINTS = 20
 #slow down visualization time
 SLOWDOWN_PER_STEP = 0.25
+
+
 #initialize graphics window globally
 win = graphics.GraphWin("Convex Hull", 1000, 1000)
 win.setBackground("white")
