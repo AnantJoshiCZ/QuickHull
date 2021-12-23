@@ -1,4 +1,4 @@
-# Convex Hull Divide and Conquor Algorithm
+# QuickHull Convex Hull Divide and Conquor Algorithm
 # Author Anant Joshi (anant.joshi@live.com)
 import graphics as graphics
 from math import *
@@ -7,7 +7,7 @@ import time
 
 #initialize graphics window globally
 win = graphics.GraphWin("Convex Hull", 1000, 1000)
-
+win.setBackground("white")
 
 def convexHull(pList: list) -> list:
     
