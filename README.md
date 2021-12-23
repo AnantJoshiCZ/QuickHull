@@ -4,6 +4,7 @@ This is an implementation of the QuickHull algorithm in Python. It randomly gene
 
 More details about QuickHull algorithm here: [Quickhull Algorithm](https://en.wikipedia.org/wiki/Quickhull) 
 
+If this code helped you visualize and understand the Quickhull algorithm, please give this repo a star! :star:
 # Installation/Setup
 
 To get this code to run on your machine, you will need to follows these steps:
