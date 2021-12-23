@@ -2,9 +2,11 @@
 # Author Anant Joshi (anant.joshi@live.com)
 import graphics as graphics
 from math import *
+import random
 import time
 
-
+#set total number of points to be randomly generated
+NUM_POINTS = 20
 #initialize graphics window globally
 win = graphics.GraphWin("Convex Hull", 1000, 1000)
 win.setBackground("white")
@@ -146,46 +148,15 @@ def isLeft(a: list, b: list, c: list) -> bool:
         return False
 
 
-# Input pointList given as a List of Lists -> List[List[], List[]...]
+# Randomly generate set of points
+pointList = []
+for _ in range(NUM_POINTS):
+    x, y = random.randint(300,700), random.randint(300, 700)
+    pointList.append([x,y])
 
-pointList = [
-[152,202],
-[549,234],
-[266,342],
-[274,245],
-[329,155],
-[253,112],
-[409,69],
-[499,203],
-[441,330],
-[375,378],
-[362,267],
-[330,369],
-[485,333],
-[188,304],
-[287,279],
-[356,311],
-[431,282],
-[375,228],
-[217,296],
-[237,177],
-[275,78],
-[203,107],
-[462,137],
-[379,167],
-[365,88],
-[509,114]
-]
 
 
 #Main Driver Code: result is stored in variable chResult which used used below for comparison
 chResult = convexHull(pointList)
 
-
-# Code below this point is only for result verification
-chResult.sort()
 print(chResult)
-hwResult = [[152,202],[549,234],[409,69],[203,107],[275,78],[509,114],[375,378],[485,333],[188,304],[330,369],[266,342]]
-hwResult.sort()
-print(hwResult)
-print(chResult == hwResult)
