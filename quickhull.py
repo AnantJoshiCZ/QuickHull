@@ -7,6 +7,8 @@ import time
 
 #set total number of points to be randomly generated
 NUM_POINTS = 20
+#slow down visualization time
+SLOWDOWN_PER_STEP = 0.25
 #initialize graphics window globally
 win = graphics.GraphWin("Convex Hull", 1000, 1000)
 win.setBackground("white")
@@ -106,7 +108,7 @@ def upperHull(a: list, b: list, pList: list):
 
 
     #sleep function to slow down convexHull building to visualize for graphics value -> enable to slow down graphics viz and see step-by-step calculation
-    time.sleep(0.25)
+    time.sleep(SLOWDOWN_PER_STEP)
     return resultPoints
 
         

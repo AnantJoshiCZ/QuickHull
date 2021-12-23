@@ -1,6 +1,6 @@
 # QuickHull
 
-This is an implementation of the QuickHull algorithm in Python. It randomly generates a set of points and finds the convex hull of this set of points using the QuickHull algorithm. More details about QuickHull algorithm here: [QuickHull](https://github.com/AnantJoshiCZ/QuickHull.git) 
+This is an implementation of the QuickHull algorithm in Python. It randomly generates a set of points and finds the convex hull of this set of points using the Quickhull algorithm. More details about QuickHull algorithm here: [Quickhull Algorithm](https://en.wikipedia.org/wiki/Quickhull) 
 
 # Installation/Setup
 
