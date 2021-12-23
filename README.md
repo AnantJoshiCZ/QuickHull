@@ -26,4 +26,4 @@ If you're on the MacOS, you may need to install the Tkinter dependencies separat
 ```
 brew install python-tk
 ```
-This will install any Tkinter/tkinter dependencies and allow you to use the graphics.py library. If you do not do this step, you may see an error when running the code.
+This will install any Tkinter/tkinter dependencies and allow you to use the graphics.py library. If you do not do this step, you may see an error when running the code. This is a common issue with the graphics.py library which is supposed to be a library for learning basic graphic concepts.
