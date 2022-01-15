@@ -108,7 +108,7 @@ def upperHull(a: list, b: list, pList: list):
     resultPoints += region1
     resultPoints += region3
 
-
+    
     #sleep function to slow down convexHull building to visualize for graphics value -> enable to slow down graphics viz and see step-by-step calculation
     time.sleep(SLOWDOWN_PER_STEP)
     return resultPoints
