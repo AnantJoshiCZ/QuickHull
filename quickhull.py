@@ -7,6 +7,7 @@ import time
 
 #set total number of points to be randomly generated
 NUM_POINTS = 20
+
 #slow down visualization time
 SLOWDOWN_PER_STEP = 0.25
 
@@ -153,12 +154,22 @@ def isLeft(a: list, b: list, c: list) -> bool:
 
 
 # Randomly generate set of points
+# Randomly generate set of points
 pointList = []
 for _ in range(NUM_POINTS):
     x, y = random.randint(300,700), random.randint(300, 700)
     pointList.append([x,y])
 
-
+'''
+# Generate points by clicking on the canvas
+pointList = []
+for _ in range(NUM_POINTS):
+    p = win.getMouse()
+    x, y = p.getX(), p.getY()
+    pointList.append([x,y])
+    print(x, y)
+    win.redraw()
+'''
 
 #Main Driver Code: result is stored in variable chResult which used used below for comparison
 chResult = convexHull(pointList)
