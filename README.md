@@ -16,9 +16,11 @@ If this code helped you visualize and understand the Quickhull algorithm, please
 
 
 Here are a couple of results:
+
 ![quickhull_20.gif](https://github.com/AnantJoshiCZ/QuickHull/blob/master/quickhull_20.gif)
 
 Worst-case Scenario - Points in a Circle - Time Complexity O(n * log (n) )
+
 ![quickhull_20_circle.gif](https://github.com/AnantJoshiCZ/QuickHull/blob/master/quickhull_20_circle.gif)
 # Installation/Setup
 
