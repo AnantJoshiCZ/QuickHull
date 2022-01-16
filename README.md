@@ -2,13 +2,19 @@
 
 This is an implementation of the QuickHull algorithm in Python. It randomly generates a set of points and finds the convex hull of this set of points using the Quickhull algorithm. 
 
+Time Complexity - O(n * log(r)) where __n__ = total no. of points, __r__ = no. of processed points
+
 More details about QuickHull algorithm here: [Quickhull Algorithm](https://en.wikipedia.org/wiki/Quickhull) 
 
 If this code helped you visualize and understand the Quickhull algorithm, please give this repo a star! :star:
 
 ## Results
 
+Here are a couple of results:
 ![quickhull_20.gif](https://github.com/AnantJoshiCZ/QuickHull/blob/master/quickhull_20.gif)
+
+Worst-case Scenario - Time Complexity O(n^2)
+![quickhull_20_circle.gif](https://github.com/AnantJoshiCZ/QuickHull/blob/master/quickhull_20_circle.gif)
 # Installation/Setup
 
 To get this code to run on your machine, you will need to follows these steps:
